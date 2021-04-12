@@ -147,7 +147,7 @@ SN1 = audiobity(10 + mod((R*i-1+ (bitshift(G,2)) +B +runcnt ),K) );
 SN2 = audiobity(15 + mod((R*i-1+ (bitshift(G,3)) +B +runcnt ),K) );
 SN3 = audiobity(20 + mod((R*i-1+ (bitshift(G,4)) +B +runcnt ),K) );
 SN4 = audiobity( 5 + mod((R*i-1+ (bitshift(G,1)) +B +runcnt ),K) );
-%SN5 = audiobity(25 + mod((R*i-1+ (bitshift(G,5)) +B +runcnt ),K) );
+SN5 = audiobity(25 + mod((R*i-1+ (bitshift(G,5)) +B +runcnt ),K) );
 %                                        %
 %czym jest j i dlaczego jest pod sounbyte%
 %                                        %
